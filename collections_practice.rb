@@ -40,8 +40,7 @@ def add_s(array)
       word = word
       plural<<word
       else
-        word = word + "s"
-        plural<<word
+        plural<<word + "s"
       end
     end
 end
