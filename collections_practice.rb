@@ -33,8 +33,16 @@ def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
 
-def add_s
-# add se to each word but not to the second element 
+def add_s(array)
+    array.each do |word| 
+      if array[1] == word
+        word
+      else 
+        word + "s" 
+      end
+    end
+  end  
+# add se to each word but not to the second element
 #[1,2].each_with_index.collect{|element, index| }
 end
 
