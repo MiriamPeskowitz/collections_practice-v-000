@@ -34,11 +34,12 @@ def sum_array(array)
 end
 
 def add_s(array)
+    plural =[]
     array.each do |word|
       if array[1] == word
-        word
+        plural <<word
       else
-      return word + "s"
+      plural<< word + "s"
       end
     end
 
