@@ -42,6 +42,7 @@ def add_s(array)
       end
     end
   end
+end
 # add se to each word but not to the second element
 #[1,2].each_with_index.collect{|element, index| }
 end
