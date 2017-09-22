@@ -37,11 +37,11 @@ def add_s(array)
     plural =[]
     array.map do |word|
       if array[1] == word
-      plural<<word
+        plural<<word
       else
         plural<< word + "s"
       end
-    plural
+  
     end
 end
 
