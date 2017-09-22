@@ -37,9 +37,11 @@ def add_s(array)
     plural =[]
     array.each do |word|
       if array[1] == word
-        plural<<word
+      word = word
+      plural<word
       else
-        plural<<word + "s"
+        word = word + "s"
+        plural<<word 
       end
     end
 end
