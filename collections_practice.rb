@@ -39,8 +39,9 @@ def add_s(array)
       if array[1] == word
       plural<<word
       else
-        plural<<word + "s"
+        plural<< word + "s"
       end
+    plural
     end
 end
 
