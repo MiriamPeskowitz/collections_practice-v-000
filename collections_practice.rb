@@ -43,11 +43,5 @@ def add_s(array)
     end
   end
 end
-# add se to each word but not to the second element
-#[1,2].each_with_index.collect{|element, index| }
-end
 
 
-    #find every 3d letter, get it out, replace with $
-    # break into split into 3 letter chunks -- split(3)
-    #string.length = 3
