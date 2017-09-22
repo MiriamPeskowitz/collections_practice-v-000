@@ -45,4 +45,4 @@ def add_s(array)
     end
 end
 
-#add_s(["dog", "feet" "doctor"])
+
